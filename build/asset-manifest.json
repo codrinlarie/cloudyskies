@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cloudyskies/static/css/main.6b84f8db.css",
-    "main.js": "/cloudyskies/static/js/main.a227b64c.js",
+    "main.js": "/cloudyskies/static/js/main.96f80186.js",
     "index.html": "/cloudyskies/index.html",
     "main.6b84f8db.css.map": "/cloudyskies/static/css/main.6b84f8db.css.map",
-    "main.a227b64c.js.map": "/cloudyskies/static/js/main.a227b64c.js.map"
+    "main.96f80186.js.map": "/cloudyskies/static/js/main.96f80186.js.map"
   },
   "entrypoints": [
     "static/css/main.6b84f8db.css",
-    "static/js/main.a227b64c.js"
+    "static/js/main.96f80186.js"
   ]
 }

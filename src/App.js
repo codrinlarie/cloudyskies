@@ -19,7 +19,7 @@ export default function WeatherApp() {
     setError('');
 
     try {
-      const response = await axios.get(`https://cloudyskies.netlify.app/.netlify/functions/api?lat=${lat}&lon=${lon}`);
+      const response = await axios.get(`https://cloudyskies.netlify.app/.netlify/functions/api/weather?lat=${lat}&lon=${lon}`);
       setWeatherData(response.data);
       console.log(response.data);
     } catch (err) {
