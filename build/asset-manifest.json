@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cloudyskies/static/css/main.6b84f8db.css",
+    "main.js": "/cloudyskies/static/js/main.cd4a7f29.js",
+    "index.html": "/cloudyskies/index.html",
+    "main.6b84f8db.css.map": "/cloudyskies/static/css/main.6b84f8db.css.map",
+    "main.cd4a7f29.js.map": "/cloudyskies/static/js/main.cd4a7f29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b84f8db.css",
+    "static/js/main.cd4a7f29.js"
+  ]
+}
