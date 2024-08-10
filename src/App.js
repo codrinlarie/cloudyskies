@@ -19,9 +19,13 @@ export default function WeatherApp() {
     setError('');
 
     try {
-      const response = await axios.get(`https://cloudyskies.netlify.app/.netlify/functions/weather?lat=${lat}&lon=${lon}`);
-      setWeatherData(response.data);
-      console.log(response.data);
+
+
+      fetch('/.netlify/functions/weather?lat=45&lon=78')
+      .then(response => response.json())
+      .then(data => console.log(data))
+      .catch(error => console.error('Error:', error));
+
     } catch (err) {
       setError('Failed to fetch weather data. Please try again.');
       console.error('Error fetching weather data:', err);
